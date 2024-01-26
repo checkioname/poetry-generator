@@ -5,7 +5,7 @@ from torchtext.vocab import build_vocab_from_iterator
 import pandas as pd
 
 #Carregando nossos dados
-a = 'raw/txt/poesia/almada.txt'
+a = 'data/txt/poesia/almada.txt'
 with open(a,'r') as file:
     data = file.read()
     #print(data)
